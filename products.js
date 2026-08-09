@@ -25,6 +25,7 @@ const STORE = {
     { name:"Regency Gown", category:"THE DRESS", description:"Empire-waist satin gown for the full promenade silhouette.", image:"dress.png", url:"https://link.amazon/B045IDxfn", price:"" },
     { name:"Regency Gown", category:"THE DRESS", description:"Empire-waist satin gown for the full promenade silhouette.", image:"https://m.media-amazon.com/images/I/61aPt41pBCL._SX679_.jpg", url:"https://link.amazon/B069JKXko", price:"" },
     { name:"Regency Gown", category:"THE DRESS", description:"Empire-waist satin gown for the full promenade silhouette.", image:"dress2.png", url:"https://link.amazon/B0ghoOJqE", price:"" },
+   { name:"Regency Gown", category:"THE DRESS", description:"Empire-waist satin gown for the full promenade silhouette.", image:"https://m.media-amazon.com/images/I/61QZfZH+AHL._SX522_.jpg", url:"https://link.amazon/B0aPzZtIS", price:"" },
     { name:"Regency Gown", category:"THE DRESS", description:"Empire-waist satin gown for the full promenade silhouette.", image:"https://m.media-amazon.com/images/I/61jYrc9Pp9L._SX522_.jpg", url:"https://link.amazon/B0hsckDo4", price:"" },
     { name:"Pearl Necklace", category:"JEWELRY", description:"Delicate necklace to soften the neckline.", image:"https://m.media-amazon.com/images/I/516J6dzgtPL._SY395_.jpg", url:"https://link.amazon/B0hhNYnyy", price:"" },
     { name:"Silver Necklace", category:"JEWELRY", description:"Delicate necklace to soften the neckline.", image:"https://m.media-amazon.com/images/I/61qOG0oAmSL._SY500_.jpg", url:"https://link.amazon/B05FVIZCF", price:"" },
@@ -48,9 +49,10 @@ const STORE = {
     { name:"Regency Gown", category:"THE DRESS", description:"Empire-waist satin gown for the full promenade silhouette.", image:"https://m.media-amazon.com/images/I/61aPt41pBCL._SX679_.jpg", url:"https://link.amazon/B069JKXko", price:"" },
     { name:"Regency Gown", category:"THE DRESS", description:"Empire-waist satin gown for the full promenade silhouette.", image:"dress2.png", url:"https://link.amazon/B0ghoOJqE", price:"" },
     { name:"Regency Gown", category:"THE DRESS", description:"Empire-waist satin gown for the full promenade silhouette.", image:"https://m.media-amazon.com/images/I/61jYrc9Pp9L._SX522_.jpg", url:"https://link.amazon/B0hsckDo4", price:"" },
+    { name:"Regency Gown", category:"THE DRESS", description:"Empire-waist satin gown for the full promenade silhouette.", image:"https://m.media-amazon.com/images/I/61QZfZH+AHL._SX522_.jpg", url:"https://link.amazon/B0aPzZtIS", price:"" },
     { name:"Dreamy Dress 01", category:"DRESS", description:"Replace this with your product description.", image:"", url:"", price:"add price" },
     { name:"Dreamy Dress 02", category:"DRESS", description:"Replace this with your product description.", image:"", url:"", price:"add price" },
-    { name:"Vintage-Inspired Dress", category:"VINTAGE", description:"Replace this with your product description.", image:"", url:"", price:"add price" },
+    { name:"Vintage-Inspired Dress", category:"VINTAGE", description:"Replace this with your product description.", image:"https://m.media-amazon.com/images/I/616aB6prwCL._SX522_.jpg", url:"https://link.amazon/B0drfcnKs", price:"add price" },
     { name:"Party Dress", category:"STATEMENT", description:"Replace this with your product description.", image:"", url:"", price:"add price" }
   ],
 
@@ -70,7 +72,7 @@ const STORE = {
     { name:"Lace Parasol", category:"ACCESSORY", description:"A dreamy finishing piece for promenade photos.", image:"https://m.media-amazon.com/images/I/71t8ZYn731L._SX522_.jpg", url:"https://link.amazon/B0bjTXeey", price:"" },
     { name:"Pearl Earrings", category:"JEWELRY", description:"Replace this with your product description.", image:"", url:"", price:"add price" },
     { name:"Statement Necklace", category:"JEWELRY", description:"Replace this with your product description.", image:"", url:"", price:"add price" },
-    { name:"Lace Gloves", category:"GLOVES", description:"Replace this with your product description.", image:"", url:"", price:"add price" },
+    { name:"Satin Ribbon Gloves", category:"GLOVES", description:" Satin Gloves with Bow & Pearl Embellishment.", image:"https://m.media-amazon.com/images/I/61mCDHqRFEL._SX522_.jpg", url:"https://link.amazon/B07FH54U6" },
     { name:"Pretty Heels", category:"SHOES", description:"Replace this with your product description.", image:"", url:"", price:"add price" },
     { name:"Tiara", category:"HEADPIECE", description:"Replace this with your product description.", image:"", url:"", price:"add price" }
   ]
