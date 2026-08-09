@@ -44,6 +44,10 @@ const STORE = {
   ],
 
   dresses: [
+    { name:"Regency Gown", category:"THE DRESS", description:"Empire-waist satin gown for the full promenade silhouette.", image:"dress.png", url:"https://link.amazon/B045IDxfn", price:"" },
+    { name:"Regency Gown", category:"THE DRESS", description:"Empire-waist satin gown for the full promenade silhouette.", image:"https://m.media-amazon.com/images/I/61aPt41pBCL._SX679_.jpg", url:"https://link.amazon/B069JKXko", price:"" },
+    { name:"Regency Gown", category:"THE DRESS", description:"Empire-waist satin gown for the full promenade silhouette.", image:"dress2.png", url:"https://link.amazon/B0ghoOJqE", price:"" },
+    { name:"Regency Gown", category:"THE DRESS", description:"Empire-waist satin gown for the full promenade silhouette.", image:"https://m.media-amazon.com/images/I/61jYrc9Pp9L._SX522_.jpg", url:"https://link.amazon/B0hsckDo4", price:"" },
     { name:"Dreamy Dress 01", category:"DRESS", description:"Replace this with your product description.", image:"", url:"", price:"add price" },
     { name:"Dreamy Dress 02", category:"DRESS", description:"Replace this with your product description.", image:"", url:"", price:"add price" },
     { name:"Vintage-Inspired Dress", category:"VINTAGE", description:"Replace this with your product description.", image:"", url:"", price:"add price" },
