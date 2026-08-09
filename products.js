@@ -23,11 +23,16 @@
 const STORE = {
   bridgerton: [
     { name:"Regency Gown", category:"THE DRESS", description:"Empire-waist satin gown for the full promenade silhouette.", image:"dress.png", url:"https://link.amazon/B045IDxfn", price:"" },
+    { name:"Regency Gown", category:"THE DRESS", description:"Empire-waist satin gown for the full promenade silhouette.", image:"https://m.media-amazon.com/images/I/61aPt41pBCL._SX679_.jpg", url:"https://link.amazon/B069JKXko", price:"" },
+    { name:"Regency Gown", category:"THE DRESS", description:"Empire-waist satin gown for the full promenade silhouette.", image:"dress2.png", url:"https://link.amazon/B0ghoOJqE", price:"" },
+    { name:"Regency Gown", category:"THE DRESS", description:"Empire-waist satin gown for the full promenade silhouette.", image:"https://m.media-amazon.com/images/I/61jYrc9Pp9L._SX522_.jpg", url:"https://link.amazon/B0hsckDo4", price:"" },
     { name:"Pearl Necklace", category:"JEWELRY", description:"Delicate necklace to soften the neckline.", image:"https://m.media-amazon.com/images/I/516J6dzgtPL._SY395_.jpg", url:"https://link.amazon/B0hhNYnyy", price:"" },
     { name:"Silver Necklace", category:"JEWELRY", description:"Delicate necklace to soften the neckline.", image:"https://m.media-amazon.com/images/I/61qOG0oAmSL._SY500_.jpg", url:"https://link.amazon/B05FVIZCF", price:"" },
     { name:"Opera Gloves", category:"ACCESSORY", description:"white satin gloves for instant Regency drama.", image:"https://m.media-amazon.com/images/I/51iPt7px0lL._SX522_.jpg", url:"https://link.amazon/B0h4uG4xW", price:"add price" },
     { name:"Regency Lace Heels", category:"SHOES", description:"Romantic heels with a vintage-inspired finish.", image:"https://m.media-amazon.com/images/I/81ddCeHKIhL._SY500_.jpg", url:"https://link.amazon/B06NYmOVm", price:"" },
-    { name:"Pearl Tiara", category:"HEADPIECE", description:"A sparkling little crown for your Diamond moment.", image:"https://m.media-amazon.com/images/I/51nJULC4ewL._SY500_.jpg", url:"https://link.amazon/B0i7pPhYZ", price:"" },
+    { name:"Embellished Heels", category:"SHOES", description:"Exquisite beaded lace heels.", image:"https://m.media-amazon.com/images/I/71SV5alXdPL._SY575_.jpg", url:"https://link.amazon/B0f6dckg7", price:"" },
+    { name:"Pearl Silver Tiara", category:"HEADPIECE", description:"A sparkling little crown for your Diamond moment.", image:"https://m.media-amazon.com/images/I/51nJULC4ewL._SY500_.jpg", url:"https://link.amazon/B0i7pPhYZ", price:"" },
+    { name:"Golden Rhinestone Tiara", category:"HEADPIECE", description:"A sparkling little crown for your Diamond moment.", image:"https://m.media-amazon.com/images/I/714CA--c7VL._SY500_.jpg", url:"https://link.amazon/B0eXPHYvQ", price:"" },
     { name:"Lace Parasol", category:"ACCESSORY", description:"A dreamy finishing piece for promenade photos.", image:"https://m.media-amazon.com/images/I/71t8ZYn731L._SX522_.jpg", url:"https://link.amazon/B0bjTXeey", price:"" }
   ],
 
@@ -53,7 +58,7 @@ const STORE = {
   ],
 
   accessories: [
-        { name:"Pearl Necklace", category:"JEWELRY", description:"Delicate necklace to soften the neckline.", image:"https://m.media-amazon.com/images/I/516J6dzgtPL._SY395_.jpg", url:"https://link.amazon/B0hhNYnyy", price:"" },
+    { name:"Pearl Necklace", category:"JEWELRY", description:"Delicate necklace to soften the neckline.", image:"https://m.media-amazon.com/images/I/516J6dzgtPL._SY395_.jpg", url:"https://link.amazon/B0hhNYnyy", price:"" },
     { name:"Silver Necklace", category:"JEWELRY", description:"Delicate necklace to soften the neckline.", image:"https://m.media-amazon.com/images/I/61qOG0oAmSL._SY500_.jpg", url:"https://link.amazon/B05FVIZCF", price:"" },
     { name:"Opera Gloves", category:"ACCESSORY", description:"white satin gloves for instant Regency drama.", image:"https://m.media-amazon.com/images/I/51iPt7px0lL._SX522_.jpg", url:"https://link.amazon/B0h4uG4xW", price:"add price" },
     { name:"Regency Lace Heels", category:"SHOES", description:"Romantic heels with a vintage-inspired finish.", image:"https://m.media-amazon.com/images/I/81ddCeHKIhL._SY500_.jpg", url:"https://link.amazon/B06NYmOVm", price:"" },

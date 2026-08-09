@@ -69,11 +69,26 @@ document.addEventListener("DOMContentLoaded", () => {
         const hasLink = Boolean(product.url);
 
         card.innerHTML = `
-          <div class="product-photo">
-            <span class="product-index">${String(index + 1).padStart(2,"0")}</span>
-            <img src="${product.image || placeholder(product.name)}" alt="${product.name}" loading="lazy">
-            <button class="heart-btn" type="button" aria-label="Save ${product.name}" title="Save this item">♡</button>
-          </div>
+         <div class="product-photo">
+  <span class="product-index">${String(index + 1).padStart(2, "0")}</span>
+
+  <a href="${safeUrl}"
+     ${hasLink ? 'target="_blank" rel="sponsored noopener noreferrer"' : 'aria-disabled="true"'}
+     class="product-image-link">
+
+    <img src="${product.image || placeholder(product.name)}"
+         alt="${product.name}"
+         loading="lazy">
+
+  </a>
+
+  <button class="heart-btn"
+          type="button"
+          aria-label="Save ${product.name}"
+          title="Save this item">♡</button>
+</div>
+
+
           <div class="product-info">
             <span class="product-category">${product.category || "FIND"}</span>
             <h3>${product.name}</h3>
@@ -102,8 +117,8 @@ document.addEventListener("DOMContentLoaded", () => {
       const q = (search?.value || "").toLowerCase().trim();
       let result = products.filter(p => `${p.name} ${p.category} ${p.description}`.toLowerCase().includes(q));
       const mode = sort?.value;
-      if (mode === "az") result.sort((a,b) => a.name.localeCompare(b.name));
-      if (mode === "za") result.sort((a,b) => b.name.localeCompare(a.name));
+      if (mode === "az") result.sort((a, b) => a.name.localeCompare(b.name));
+      if (mode === "za") result.sort((a, b) => b.name.localeCompare(a.name));
       render(result);
     }
 
