@@ -37,31 +37,32 @@ const STORE = {
     { name:"Lace Parasol", category:"ACCESSORY", description:"A dreamy finishing piece for promenade photos.", image:"https://m.media-amazon.com/images/I/71t8ZYn731L._SX522_.jpg", url:"https://link.amazon/B0bjTXeey", price:"" }
   ],
 
-  wigs: [
-    { name:"Character Wig 01", category:"COSPLAY WIG", description:"Replace this with your wig description.", image:"", url:"", price:"add price" },
-    { name:"Character Wig 02", category:"COSPLAY WIG", description:"Replace this with your wig description.", image:"", url:"", price:"add price" },
-    { name:"Long Fantasy Wig", category:"FANTASY HAIR", description:"Replace this with your wig description.", image:"", url:"", price:"add price" },
-    { name:"Soft Romantic Wig", category:"ROMANTIC", description:"Replace this with your wig description.", image:"", url:"", price:"add price" }
-  ],
+  // wigs: [
+  //   { name:"Character Wig 01", category:"COSPLAY WIG", description:"Replace this with your wig description.", image:"", url:"", price:"add price" },
+  //   { name:"Character Wig 02", category:"COSPLAY WIG", description:"Replace this with your wig description.", image:"", url:"", price:"add price" },
+  //   { name:"Long Fantasy Wig", category:"FANTASY HAIR", description:"Replace this with your wig description.", image:"", url:"", price:"add price" },
+  //   { name:"Soft Romantic Wig", category:"ROMANTIC", description:"Replace this with your wig description.", image:"", url:"", price:"add price" }
+  // ],
 
   dresses: [
     { name:"Regency Gown", category:"THE DRESS", description:"Empire-waist satin gown for the full promenade silhouette.", image:"dress.png", url:"https://link.amazon/B045IDxfn", price:"" },
     { name:"Regency Gown", category:"THE DRESS", description:"Empire-waist satin gown for the full promenade silhouette.", image:"https://m.media-amazon.com/images/I/61aPt41pBCL._SX679_.jpg", url:"https://link.amazon/B069JKXko", price:"" },
     { name:"Regency Gown", category:"THE DRESS", description:"Empire-waist satin gown for the full promenade silhouette.", image:"dress2.png", url:"https://link.amazon/B0ghoOJqE", price:"" },
     { name:"Regency Gown", category:"THE DRESS", description:"Empire-waist satin gown for the full promenade silhouette.", image:"https://m.media-amazon.com/images/I/61jYrc9Pp9L._SX522_.jpg", url:"https://link.amazon/B0hsckDo4", price:"" },
+   { name:"Vintage-Inspired Dress", category:"VINTAGE", description:"Replace this with your product description.", image:"https://m.media-amazon.com/images/I/616aB6prwCL._SX522_.jpg", url:"https://link.amazon/B0drfcnKs", price:"add price" },
     { name:"Regency Gown", category:"THE DRESS", description:"Empire-waist satin gown for the full promenade silhouette.", image:"https://m.media-amazon.com/images/I/61QZfZH+AHL._SX522_.jpg", url:"https://link.amazon/B0aPzZtIS", price:"" },
-    { name:"Dreamy Dress 01", category:"DRESS", description:"Replace this with your product description.", image:"", url:"", price:"add price" },
-    { name:"Dreamy Dress 02", category:"DRESS", description:"Replace this with your product description.", image:"", url:"", price:"add price" },
-    { name:"Vintage-Inspired Dress", category:"VINTAGE", description:"Replace this with your product description.", image:"https://m.media-amazon.com/images/I/616aB6prwCL._SX522_.jpg", url:"https://link.amazon/B0drfcnKs", price:"add price" },
-    { name:"Party Dress", category:"STATEMENT", description:"Replace this with your product description.", image:"", url:"", price:"add price" }
+    // { name:"Dreamy Dress 01", category:"DRESS", description:"Replace this with your product description.", image:"", url:"", price:"add price" },
+    // { name:"Dreamy Dress 02", category:"DRESS", description:"Replace this with your product description.", image:"", url:"", price:"add price" },
+    
+    // { name:"Party Dress", category:"STATEMENT", description:"Replace this with your product description.", image:"", url:"", price:"add price" }
   ],
 
-  cosplay: [
-    { name:"Cosplay Costume", category:"COSTUME", description:"Replace this with your costume description.", image:"", url:"", price:"add price" },
-    { name:"Character Prop", category:"PROP", description:"Replace this with your prop description.", image:"", url:"", price:"add price" },
-    { name:"Cosplay Shoes", category:"SHOES", description:"Replace this with your shoe description.", image:"", url:"", price:"add price" },
-    { name:"Character Accessory", category:"DETAIL", description:"Replace this with your accessory description.", image:"", url:"", price:"add price" }
-  ],
+  // cosplay: [
+  //   { name:"Cosplay Costume", category:"COSTUME", description:"Replace this with your costume description.", image:"", url:"", price:"add price" },
+  //   { name:"Character Prop", category:"PROP", description:"Replace this with your prop description.", image:"", url:"", price:"add price" },
+  //   { name:"Cosplay Shoes", category:"SHOES", description:"Replace this with your shoe description.", image:"", url:"", price:"add price" },
+  //   { name:"Character Accessory", category:"DETAIL", description:"Replace this with your accessory description.", image:"", url:"", price:"add price" }
+  // ],
 
   accessories: [
     { name:"Pearl Necklace", category:"JEWELRY", description:"Delicate necklace to soften the neckline.", image:"https://m.media-amazon.com/images/I/516J6dzgtPL._SY395_.jpg", url:"https://link.amazon/B0hhNYnyy", price:"" },
@@ -70,10 +71,23 @@ const STORE = {
     { name:"Regency Lace Heels", category:"SHOES", description:"Romantic heels with a vintage-inspired finish.", image:"https://m.media-amazon.com/images/I/81ddCeHKIhL._SY500_.jpg", url:"https://link.amazon/B06NYmOVm", price:"" },
     { name:"Pearl Tiara", category:"HEADPIECE", description:"A sparkling little crown for your Diamond moment.", image:"https://m.media-amazon.com/images/I/51nJULC4ewL._SY500_.jpg", url:"https://link.amazon/B0i7pPhYZ", price:"" },
     { name:"Lace Parasol", category:"ACCESSORY", description:"A dreamy finishing piece for promenade photos.", image:"https://m.media-amazon.com/images/I/71t8ZYn731L._SX522_.jpg", url:"https://link.amazon/B0bjTXeey", price:"" },
-    { name:"Pearl Earrings", category:"JEWELRY", description:"Replace this with your product description.", image:"", url:"", price:"add price" },
-    { name:"Statement Necklace", category:"JEWELRY", description:"Replace this with your product description.", image:"", url:"", price:"add price" },
+
     { name:"Satin Ribbon Gloves", category:"GLOVES", description:" Satin Gloves with Bow & Pearl Embellishment.", image:"https://m.media-amazon.com/images/I/61mCDHqRFEL._SX522_.jpg", url:"https://link.amazon/B07FH54U6" },
-    { name:"Pretty Heels", category:"SHOES", description:"Replace this with your product description.", image:"", url:"", price:"add price" },
-    { name:"Tiara", category:"HEADPIECE", description:"Replace this with your product description.", image:"", url:"", price:"add price" }
+    // { name:"Pretty Heels", category:"SHOES", description:"Replace this with your product description.", image:"", url:"" },
+    // { name:"Pearl Earrings", category:"JEWELRY", description:"Replace this with your product description.", image:"", url:"" },
+    // { name:"Statement Necklace", category:"JEWELRY", description:"Replace this with your product description.", image:"", url:""},
+    // { name:"Tiara", category:"HEADPIECE", description:"Replace this with your product description.", image:"", url:"" }
+  ],
+  keychains: [
+    { name:"cute kitty keychain", category:"KEYCHAINS", description:"Plush Kitten Keychain, Heart Clasp Kawaii Bag Charm | Quick Attachment, Keeps Charm in Place, Soft Plush Feel, Compact Profile for Daily Carry", image:"https://m.media-amazon.com/images/I/518+I54z4yL._SY395_.jpg", url:"https://link.amazon/B0ftd7sLk" },
+    { name:"y2k couple matching kawaii kitty keychains", category:"KEYCHAINS", description:"2Pcs Kawaii Cat Keychain Charm Set, Y2K Cute Kitten Handbag Charms for couples", image:"https://m.media-amazon.com/images/I/617F7QKQRwL._SX679_.jpg", url:"https://link.amazon/B0cWxccWT" },
+    { name:"Aesthetic Y2K Cute Keychain Charms Keychain Accessories", category:"KEYCHAINS", description:"Aesthetic Y2K cute keychain charms with adorable beaded acrylic strawberry charms", image:"https://m.media-amazon.com/images/I/51cXn8FJUwL._SX466_.jpg", url:"https://link.amazon/B02FZdXhZ" },
+    { name:"Y2K Butterfly Hearts Bow Bag Charms ", category:"KEYCHAINS", description:"cute butterfly hearts bow bag charms", image:"https://m.media-amazon.com/images/I/6182Puu+ciL._SX679_.jpg", url:"https://link.amazon/B07ujoMui" },
+    { name:"Matching cute bow keychains", category:"KEYCHAINS", description:"Matching aesthetic keychains with bows and heart clasp ", image:"https://m.media-amazon.com/images/I/61I8RYRqxWL._SX679_.jpg", url:"https://link.amazon/B08eh06BE" },
+    { name:"Y2K kawaii acrylic phone and bag charms 4pcs", category:"KEYCHAINS", description:"4 Pcs Phone Charms Girls Y2K Kawaii Acrylic Metal Chain ", image:"https://m.media-amazon.com/images/I/51nH-4G405L._SY500_.jpg", url:"https://link.amazon/B03N7kLyl" },
+    // { name:"", category:"KEYCHAINS", description:"", image:"", url:"" },
+    // { name:"", category:"KEYCHAINS", description:"", image:"", url:"" },
+    // { name:"", category:"KEYCHAINS", description:"", image:"", url:"" },
+    // { name:"", category:"KEYCHAINS", description:"", image:"", url:"" },
   ]
 };
