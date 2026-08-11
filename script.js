@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", () => {
   // Floating particles
   const particles = document.getElementById("particles");
   if (particles && !window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
-    const symbols = ["✦", "✧", "·", "♡", "꩜"];
+    const symbols = ["✦", "✧", "·", "♡", "꩜","𑣲𝄞"];
     for (let i = 0; i < 26; i++) {
       const el = document.createElement("span");
       el.className = "particle";
@@ -132,12 +132,12 @@ document.addEventListener("DOMContentLoaded", () => {
   const fateResult = document.getElementById("fateResult");
   if (fateButton && fateResult) {
     const fates = [
-      ["Your fate says…", "Bridgerton Vinatge gowns. Obviously. 🎀", "bridgerton.html"],
-      ["Your fate says…", "You need a dramatic wig. Immediately. 💇‍♀️", "wigs.html"],
-      ["Your fate says…", "Main-character cosplay is calling. 🎭", "cosplay.html"],
-      ["Your fate says…", "A new dress has entered the plot. 👗", "dresses.html"],
-      ["Your fate says…", "It's the tiny accessories that will ruin your budget. 💎", "accessories.html"]
-      ["Your fate says…", "Sweet charms are calling for you .♡♡♡", "keychains.html"]
+      ["Your fate says…", "Bridgerton Vinatge gowns. Obviously.˚˖𓍢ִ໋🦢˚‧₊˚♪ 𝄞₊˚⊹", "bridgerton.html"],
+      ["Your fate says…", "You need a dramatic wig. Immediately.꒰ྀི১ ໒꒱ིྀ", "wigs.html"],
+      ["Your fate says…", "Main-character cosplay is calling.૮ ྀིᴗ͈ . ᴗ͈ ྀིა", "cosplay.html"],
+      ["Your fate says…", "A new dress has entered the plot. ദ്ദി(˵ •̀ ᴗ - ˵ ) ✧", "dresses.html"],
+      ["Your fate says…", "It's the tiny accessories that will ruin your budget.˖ ݁♬⋆.˚𝄞", "accessories.html"],
+      ["Your fate says…", "Sweet charms are calling for you. ༘˚⋆𐙚｡⋆𖦹.✧˚♡", "keychains.html"]
     ];
     fateButton.addEventListener("click", () => {
       const [lead, text, url] = fates[Math.floor(Math.random() * fates.length)];
@@ -156,3 +156,4 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 });
+
