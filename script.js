@@ -132,11 +132,12 @@ document.addEventListener("DOMContentLoaded", () => {
   const fateResult = document.getElementById("fateResult");
   if (fateButton && fateResult) {
     const fates = [
-      ["Your fate says…", "Bridgerton gowns. Obviously. 🎀", "bridgerton.html"],
+      ["Your fate says…", "Bridgerton Vinatge gowns. Obviously. 🎀", "bridgerton.html"],
       ["Your fate says…", "You need a dramatic wig. Immediately. 💇‍♀️", "wigs.html"],
       ["Your fate says…", "Main-character cosplay is calling. 🎭", "cosplay.html"],
       ["Your fate says…", "A new dress has entered the plot. 👗", "dresses.html"],
       ["Your fate says…", "It's the tiny accessories that will ruin your budget. 💎", "accessories.html"]
+      ["Your fate says…", "Sweet charms are calling for you .♡♡♡", "keychains.html"]
     ];
     fateButton.addEventListener("click", () => {
       const [lead, text, url] = fates[Math.floor(Math.random() * fates.length)];
